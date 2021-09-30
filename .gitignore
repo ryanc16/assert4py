@@ -1,0 +1,9 @@
+.venv/*
+!.venv/.gitkeep
+Pipfile.lock
+
+dist/
+build/
+MANIFEST
+*.pyc
+*.egg-info
