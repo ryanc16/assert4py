@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name = "assert4py",
@@ -9,7 +9,6 @@ setup(
     license = "MIT",
     keywords = "tests, testing, test suite, test runner, unit test, assert, mock",
     url = "https://github.com/ryanc16/assert4py",
-    packages=['assert4py'],
-    package_dir={'assert4py': 'assert4py'},
+    packages=find_packages(),
     long_description="A unit testing suite, test runner, and assertion library for python",
 )
